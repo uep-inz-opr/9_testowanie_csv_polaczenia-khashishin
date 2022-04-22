@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test1",
-      "setup": "python3 -m \"pip install -r requirements.txt\"",
+      "setup": "pip install -r requirements.txt",
       "run": "python3 polaczenia.py",
       "input": "phoneCalls.csv",
       "output": "(226, 5)",
